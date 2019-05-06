@@ -1,0 +1,187 @@
+body {
+  background-color: lightblue;
+  margin: center;
+  text-align: justify;
+  font-family: 'Slabo 27px', serif;
+  width:70%auto;
+}
+.explain{
+  float: left;
+  width: 300px;
+  margin: 15px;
+  padding: 35px;
+  border: 2px solid blue;
+  background-color: lightblue;
+
+}
+
+h1{
+  color: red;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+h1 a{
+  text-decoration: none;
+
+}
+h1 a:hover {
+  color: black;
+  transition: all ease in out 25mm;
+  list-style: none;
+  text-decoration: none;
+
+}
+h2{
+  margin-left: 20px;
+}
+h3{
+  margin-left: 30%;
+}
+h4{
+  font-weight: lighter;
+  font-size: 30px;
+  color: blue;
+  text-align: left;
+  padding-top: 50px;
+  margin-bottom: 0;
+ margin-left: 20px;
+}
+img {
+  display: relative;
+  float: none;
+  left: 40px;
+  border: 1px solid grey;
+  border-radius: 10%;
+  margin-left: 30px;
+
+}
+p{
+  font-family: "arial";
+  line-height: 150%;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.md{
+  list-style: none;
+  margin: 10px 20px;
+  display: inline-block;
+  font-size: 30px;
+  padding: 20px 20px;
+  color: grey;
+  border: 1px solid #292929;
+  border-radius: 60%;
+  transition: .8s;
+
+}
+.md:hover{
+color:#292929;
+border: 1px solid #292929;
+
+
+}
+.media{
+  margin-bottom: 30px;
+  position: relative;
+
+
+}
+ol{
+  margin-left: 60Px;
+  font-family:"arial";
+}
+.container{
+
+  position: absolute;
+  margin: 40px;
+  width: auto;
+
+
+}
+.body{
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  position: absolute;
+}
+
+
+header::after{
+content: '';
+display: inline-block;
+clear: both
+
+}
+
+.nav{
+
+  font-family: "arial";
+  display: inline-block;
+  overflow: hidden;
+  background-color: #333;
+
+
+
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position:relative; /* Make it stick, even on scroll */
+  overflow: auto; /
+
+}
+
+.nav li{
+
+display: inline-block;
+margin-left: 30px;
+padding-top: 10px;
+position: relative;
+
+
+
+}
+
+.nav a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover{
+  background-color: #ddd;
+  color: black;
+  opacity: 40px;
+}
+
+
+.nav a:hover::before{
+  width: 100%
+}
+.nav-img{
+  background-image:url('../pictures/babies.jpg');
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+
+}
+
+#pic2{
+float: center;
+height: 200px;
+margin-right: 60px;
+}
+
+address{
+  margin-left: 5%
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
